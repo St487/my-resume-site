@@ -1,0 +1,80 @@
+/* General Style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f5f6fa;
+    color: #333;
+}
+
+header {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #0073e6;
+}
+
+.content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+    display: block;
+    margin: 0 auto 1.5rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.hobby-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.hobby-item {
+    background-color: #e6f0ff;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.contact-info {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.contact-info a {
+    color: #004aad;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
